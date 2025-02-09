@@ -22,7 +22,7 @@ header {
     padding: 5px;
     font-size: 40px;
     font-weight: 600;
-    background-image: url(/images/Projects/FIRE.jpg);
+    background-image: url(images/Projects/FIRE.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -74,7 +74,7 @@ section {
 }
 .home-content span{
     /* color: #ff004f; */
-    background-image: url(/images/Projects/FIRE.jpg);
+    background-image: url(images/Projects/FIRE.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -118,7 +118,7 @@ section {
 .about-content h2{
     font-size: 40px;
     /* color: #ff004f; */
-    background-image: url(/images/Projects/FIRE.jpg);
+    background-image: url(images/Projects/FIRE.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -138,7 +138,7 @@ section {
 .pro-title{
     font-size: 50px;
     /* color: #ff004f; */
-    background-image: url(/images/Projects/FIRE.jpg);
+    background-image: url(images/Projects/FIRE.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -259,7 +259,7 @@ section {
 .skill-title{
     font-size: 50px;
     /* color: #ff004f; */
-    background-image: url(/images/Projects/FIRE.jpg);
+    background-image: url(images/Projects/FIRE.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     background-clip: text;
