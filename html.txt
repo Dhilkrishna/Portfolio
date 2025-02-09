@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A C Dhil Krishna | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Dhil Krishna</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="scroll-list__wrp">
+        <div class="home-content">
+            <h1>Hii, I am <strong> A C Dhil Krishna</strong> </h1>
+            <p>Computer Science Engineer | Web Developer | AI Enthusiast</p>
+            <h3>Passionate about building innovative solutions using AI,<br> web technologies, and full-stack development.</h3>
+        </div>
+        <div class="home-image">
+            <img src="dhil-home.jpg" alt="Dhil Krishna">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="scroll-list__wrp">
+        <div class="about-image">
+            <img src="profile.jpg" alt="Dhil Krishna">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I'm a Computer Science Engineering student at Sree Chithra Thirunal College of Engineering (2022-2026) with a strong interest in AI, web development, and backend technologies.</p>
+            <p>I have experience with Python, Flask, React, Firebase, and AI models like Whisper and Gemini API.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-list__wrp">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <h3>YT Digest</h3>
+                <p>A YouTube video summarizer using Whisper, Gemini API & Googletrans.</p>
+            </div>
+            <div class="card">
+                <h3>Library Management System</h3>
+                <p>Built using React, Firebase, HTML, and CSS for efficient book management.</p>
+            </div>
+            <div class="card">
+                <h3>To-Do App</h3>
+                <p>A simple task manager developed with Flask framework.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="scroll-list__wrp">
+        <h2>Skills</h2>
+        <div class="skills-cards">
+            <div class="card">
+                <img src="python.png" alt="Python">
+                <h3>Python</h3>
+            </div>
+            <div class="card">
+                <img src="flask.png" alt="Flask">
+                <h3>Flask</h3>
+            </div>
+            <div class="card">
+                <img src="react.png" alt="React">
+                <h3>React</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-list__wrp">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Type your message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 A C Dhil Krishna | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
